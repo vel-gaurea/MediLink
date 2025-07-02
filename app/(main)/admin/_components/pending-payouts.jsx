@@ -203,7 +203,7 @@ export function PendingPayouts({ payouts }) {
                     <p className="text-sm font-medium text-muted-foreground">
                       Email
                     </p>
-                    <p className="text-white">{selectedPayout.doctor.email}</p>
+                    <p className="text-white break-words">{selectedPayout.doctor.email}</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">
@@ -265,7 +265,7 @@ export function PendingPayouts({ payouts }) {
                     <p className="text-sm font-medium text-muted-foreground">
                       PayPal Email
                     </p>
-                    <p className="text-white">{selectedPayout.paypalEmail}</p>
+                    <p className="text-white ">{selectedPayout.paypalEmail}</p>
                   </div>
                 </div>
               </div>

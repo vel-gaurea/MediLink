@@ -137,7 +137,7 @@ const PendingDoctors = ({ doctors }) => {
                                     <h4 className="text-sm font-medium text-muted-foreground">
                                         Email
                                     </h4>
-                                    <p className="text-base font-medium text-white">
+                                    <p className="text-base font-medium text-white break-words max-w-xs md:max-w-full">
                                         {selectedDoctor.email}
                                     </p>
                                 </div>
