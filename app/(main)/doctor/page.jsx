@@ -6,6 +6,7 @@ import { Calendar, Clock, DollarSign } from "lucide-react";
 import DoctorAppointmentList from "./_components/appointment-list";
 import { DoctorEarnings } from "./_components/doctor-earnings";
 import AvailabilitySettings from "./_components/availability-settings";
+import { redirect } from "next/navigation";
 
 
 export default async function DoctorDashboardPage() {
