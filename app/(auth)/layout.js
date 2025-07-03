@@ -1,11 +1,13 @@
+"use client"
+
 import React from 'react'
 
-const AuthLayout = ({children}) => {
+const AuthLayout = ({ children }) => {
   return (
-    <div className='flex justify-center pt-40'>
+    <div className="min-h-screen flex items-center justify-center py-16">
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default AuthLayout
+export default AuthLayout;
